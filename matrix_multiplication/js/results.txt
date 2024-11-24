@@ -1,0 +1,10 @@
+try 1
+JavaScript Matrix Multiplication: 29.671ms
+try 2
+JavaScript Matrix Multiplication: 32.257ms
+try 3
+JavaScript Matrix Multiplication: 28.485ms
+try 4
+JavaScript Matrix Multiplication: 29.445ms
+try 5
+JavaScript Matrix Multiplication: 29.342ms

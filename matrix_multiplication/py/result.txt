@@ -1,0 +1,10 @@
+try 1
+Python Matrix Multiplication: 338.45 ms
+try 2
+Python Matrix Multiplication: 341.48 ms
+try 3
+Python Matrix Multiplication: 337.02 ms
+try 4
+Python Matrix Multiplication: 339.54 ms
+try 5
+Python Matrix Multiplication: 352.16 ms

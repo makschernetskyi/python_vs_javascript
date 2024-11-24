@@ -1,6 +1,8 @@
 # Performance Comparison: JavaScript vs Python
 
-This study compares the performance of **JavaScript (Node.js v20.17.0)** and **Python (3.12.6)** across three tasks: Fibonacci calculation (recursive), file reading (Shakespeare's works, ~5.4MB), and JSON parsing. Each task was executed five times, and the results were recorded for analysis.
+This study compares the performance of **JavaScript (Node.js v20.17.0)** and **Python (3.12.6)** across four tasks: Fibonacci calculation (recursive), file reading (Shakespeare's works, ~5.4MB), JSON parsing, and matrix multiplication. Each task was executed five times, and the results were recorded for analysis.
+
+**Note**: This study uses plain JavaScript and Python, without any external libraries (e.g., NumPy for Python or math.js for JavaScript). This ensures a fair comparison of pure language capabilities without leveraging C-based optimizations.
 
 ---
 
@@ -48,6 +50,18 @@ A large JSON object (~100,000 key-value pairs) was parsed in both languages. Thi
 
 ---
 
+### Task 4: Matrix Multiplication
+Matrix multiplication was performed on two square matrices of size \(128 \times 128\). This task evaluates raw computational performance for numerical operations.
+
+| Language      | Try 1    | Try 2    | Try 3    | Try 4    | Try 5    | Average   |
+|---------------|----------|----------|----------|----------|----------|-----------|
+| **JavaScript**| 29.671ms | 32.257ms | 28.485ms | 29.445ms | 29.342ms | 29.84ms   |
+| **Python**    | 338.45ms | 341.48ms | 337.02ms | 339.54ms | 352.16ms | 341.73ms  |
+
+**Observation**: JavaScript was approximately **11.5 times faster** than Python in matrix multiplication.
+
+---
+
 ## 3. Averages Summary
 
 | Task                | JavaScript Average | Python Average | Performance Ratio (JS/Python) |
@@ -55,22 +69,26 @@ A large JSON object (~100,000 key-value pairs) was parsed in both languages. Thi
 | Fibonacci Calculation | 20.55ms           | 213.81ms       | **~10.4x faster**             |
 | File Reading         | 9.255ms           | 17.09ms        | **~1.8x faster**              |
 | JSON Parsing         | 13.27ms           | 18.12ms        | **~1.4x faster**              |
+| Matrix Multiplication| 29.84ms           | 341.73ms       | **~11.5x faster**             |
 
 ---
 
 ## 4. Conclusion
 
 1. **Fibonacci Calculation**:
-   - JavaScript is significantly faster than Python in CPU-bound tasks.
+   - JavaScript is significantly faster than Python in CPU-bound tasks, as evidenced by the recursive Fibonacci calculation.
 
 2. **File Reading**:
    - JavaScript outperforms Python in file I/O tasks, handling the text file ~1.8 times faster.
 
 3. **JSON Parsing**:
-   - JavaScript maintains its advantage but with a smaller margin. Both implementations performed well in this task.
+   - JavaScript maintains its advantage but with a smaller margin. Both implementations performed reasonably well.
+
+4. **Matrix Multiplication**:
+   - JavaScript shows an even greater advantage, performing matrix multiplication ~11.5 times faster than Python.
 
 ### Overall Findings
-JavaScript is generally faster than Python across all measured tasks. Python's performance is still reasonable and sufficient for many applications, especially where development speed and simplicity are prioritized, however when performance is the key priority Javascript should be chosen over Python.
+JavaScript consistently outperformed Python across all tasks in this study. Python's performance, while reasonable, is limited in raw computational and I/O-heavy tasks when using plain code. For scenarios where performance is critical, JavaScript (Node.js) is the preferred choice.
 
 ---
 
