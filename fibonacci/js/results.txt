@@ -1,0 +1,10 @@
+try 1
+JavaScript Fibonacci: 21.978ms
+try 2
+JavaScript Fibonacci: 21.978ms
+try 3
+JavaScript Fibonacci: 20.1ms
+try 4
+JavaScript Fibonacci: 19.226ms
+try 5
+JavaScript Fibonacci: 19.477ms

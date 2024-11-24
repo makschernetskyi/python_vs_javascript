@@ -1,0 +1,10 @@
+try 1
+JavaScript JSON Parsing: 13.234ms
+try 2
+JavaScript JSON Parsing: 13.188ms
+try 3
+JavaScript JSON Parsing: 13.284ms
+try 4
+JavaScript JSON Parsing: 13.241ms
+try 5
+JavaScript JSON Parsing: 13.424ms

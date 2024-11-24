@@ -1,0 +1,10 @@
+try 1
+Python File I/O: 15.539169311523438ms
+try 2
+Python File I/O: 19.75536346435547ms
+try 3
+Python File I/O: 21.368741989135742ms
+try 4
+Python File I/O: 13.361454010009766ms
+try 5
+Python File I/O: 15.430927276611328ms

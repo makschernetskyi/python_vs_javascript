@@ -1,0 +1,10 @@
+try 1
+Python Fibonacci: 214.1263484954834ms
+try 2
+Python Fibonacci: 207.01026916503906ms
+try 3
+Python Fibonacci: 214.09130096435547ms
+try 4
+Python Fibonacci: 220.46637535095215ms
+try 5
+Python Fibonacci: 211.3502025604248ms

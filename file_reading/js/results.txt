@@ -1,0 +1,10 @@
+try 1
+JavaScript File I/O: 9.312ms
+try 2
+JavaScript File I/O: 9.16ms
+try 3
+JavaScript File I/O: 9.278ms
+try 4
+JavaScript File I/O: 9.701ms
+try 5
+JavaScript File I/O: 8.824ms
