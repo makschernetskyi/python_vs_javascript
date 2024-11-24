@@ -1,0 +1,10 @@
+try 1
+Initial Python JSON Parsing: 20.04 ms
+try 2
+Initial Python JSON Parsing: 16.49 ms
+try 3
+Initial Python JSON Parsing: 15.25 ms
+try 4
+Initial Python JSON Parsing: 18.78 ms
+try 5
+Initial Python JSON Parsing: 20.03 ms
